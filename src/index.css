@@ -43,5 +43,9 @@ a {
     margin-bottom: -2px;
 }
 
+.btn.dark-btn {
+    background: #212EA0;
+    color: #fff;
+    outline: 0;
 
- 
+}
