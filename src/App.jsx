@@ -1,12 +1,13 @@
 import React from 'react'
-import About from './components/About/About'
-import Campus from './components/Campus/Campus'
+import About from './Components/About/About'
+import Campus from './Components/Campus/Campus'
 import Contact from './Components/Contact/Contact'
-import Hero from './components/Hero/Hero'
-import Navbar from './components/Navbar/Navbar'
-import Programs from './components/Programs/Programs'
-import Testimonials from './components/Testimonials/Testimonials'
-import Title from './components/Title/Title'
+import Footer from './Components/Footer/Footer'
+import Hero from './Components/Hero/Hero'
+import Navbar from './Components/Navbar/Navbar'
+import Programs from './Components/Programs/Programs'
+import Testimonials from './Components/Testimonials/Testimonials'
+import Title from './Components/Title/Title'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <Testimonials/>
       <Title subTitle ='Contact Us' title='Get in Touch'/>
       <Contact/>
+      <Footer/>
       </div>
     </div>
   )
