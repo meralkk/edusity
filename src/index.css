@@ -18,6 +18,7 @@ a {
     cursor: pointer;
 }
 
+
 .container {
     padding-left: 10%;
     padding-right: 10%;
@@ -34,7 +35,12 @@ a {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    border: none;
+}
 
+.btn:hover {
+    background-color: #4e5ac8;
+    color: #fff;
 }
 
 .btn img {
@@ -47,5 +53,22 @@ a {
     background: #212EA0;
     color: #fff;
     outline: 0;
+    border: none;
+}
 
+.btn.dark-btn:hover {
+    background-color: #4e5ac8;
+    color: #fff;
+}
+
+/* media query */
+
+@media (max-width: 1200px) {
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .btn{
+        padding: 14px 22px;
+    }
 }
