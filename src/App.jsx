@@ -1,13 +1,13 @@
 import React from 'react'
-import About from './Components/About/About'
-import Campus from './Components/Campus/Campus'
-import Contact from './Components/Contact/Contact'
-import Footer from './Components/Footer/Footer'
-import Hero from './Components/Hero/Hero'
-import Navbar from './Components/Navbar/Navbar'
-import Programs from './Components/Programs/Programs'
-import Testimonials from './Components/Testimonials/Testimonials'
-import Title from './Components/Title/Title'
+import About from './components/About/About'
+import Campus from './components/Campus/Campus'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
+import Hero from './components/Hero/Hero'
+import Navbar from './components/Navbar/Navbar'
+import Programs from './components/Programs/Programs'
+import Testimonials from './components/Testimonials/Testimonials'
+import Title from './components/Title/Title'
 
 const App = () => {
   return (
