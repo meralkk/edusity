@@ -26,7 +26,7 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form submitted successfully!");
+      setResult("Form ubmitted successfully");
       event.target.reset();
     } else {
       console.log("Error", data);
@@ -44,9 +44,9 @@ const Contact = () => {
             university community.
         </p>
         <ul>
-            <li> <img src= { mail_icon } alt="" /> contact@edusity.dev</li>
-            <li> <img src= { phone_icon } alt="" /> +1 123 456 7890</li>
-            <li> <img src={ location_icon } alt="" /> 77 Massachusetts Ave, Cambridge <br /> MA 02139, United States</li> 
+            <li> <img src= { mail_icon } alt="" /> <a href="mailto:contact@edusity.dev">contact@edusity.dev</a></li>
+            <li> <img src= { phone_icon } alt="" /> <a href="tel:+11234567890">+1 123 456 7890</a></li>
+            <li> <img src={ location_icon } alt="" /> <a href="https://www.google.com/maps/search/?api=1&query=77+Massachusetts+Ave,+Cambridge+MA+02139,+United+States" target="_blank" rel="noopener noreferrer">77 Massachusetts Ave, Cambridge <br /> MA 02139, United States</a></li> 
         </ul>
         </div>  
       <div className="contact-col">
